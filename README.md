@@ -27,7 +27,6 @@ This deep learning project demonstrates the end-to-end development of an image c
 
 The dataset was originally based on publicly available resources, including:
 
-- [Google Drive Collection by Marvy Ayman](https://drive.google.com/drive/folders/1hBzNW2XOp41v58GPTDITJvN_xrug1U8b)
 - [Egypt Monuments Dataset on GitHub](https://github.com/marvy-ayman/egypt-monuments-dataset)
 
 Additionally, more images were **manually collected** from various online websites to enrich and balance the dataset.
