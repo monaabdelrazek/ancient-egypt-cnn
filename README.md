@@ -98,20 +98,7 @@ The final trained model has been deployed and made publicly available for real-t
 
 ### 🔍 Example Usage (Python):
 ```python
-import requests
-from google.colab import files
-
-uploaded = files.upload()
-file_name = list(uploaded.keys())[0]
-
-url = "https://monaabdelrazek-AncientAura2.hf.space/predict"
-files = {"file": open(file_name, "rb")}
-response = requests.post(url, files=files)
-
-print(response.status_code)
-print(response.json())
 
 ## 🚀 Try it on Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.py)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
