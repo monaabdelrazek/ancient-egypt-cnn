@@ -31,9 +31,12 @@ The model is a CNN trained to classify 21 classes of Egyptian artifacts. It was 
 
 This deployment is already live and running on **Hugging Face Spaces** here:
 
-👉 **[Try the Live API](https://huggingface.co/spaces/monaabdelrazek/AncientAura2)**
+👉 **[Try the Live API](https://monaabdelrazek-AncientAura2.hf.space/predict)**
 
 > No need to run locally — the API is hosted and served directly from the Hugging Face Space.
+> > ⚠️ **Note for Users:**  
+> To interact with the live inference API directly, please use a tool like **[Postman](https://www.postman.com/)** or a script (e.g., using Python's `requests` library).  
+> Web browsers cannot send file uploads in POST requests correctly, so using Postman is necessary to test the `/predict` endpoint with image files.
 
 ---
 
