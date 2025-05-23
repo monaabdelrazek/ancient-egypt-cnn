@@ -70,19 +70,6 @@ For detailed implementation and code, please refer to the notebook:
 - [`04_model_final_95acc`](https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/notebooks/model_final_95acc.ipynb)
 
 
-
-## 📈 Performance
-
-| Metric            | Value                        |
-|-------------------|------------------------------|
-| **Test Accuracy** | **95%** on unseen data       |
-| Loss              | Low & stable                 |
-| Overfitting       | Avoided using augmentation & dropout |
-| Epochs Trained    | 52 (out of 75 planned epochs) |
-| Early Stopping    | **Manual** – Training was stopped at epoch 52 after observing a plateau in validation loss and no further improvement in accuracy |
-
-> 📌 Manual early stopping was used by closely monitoring training and validation performance. Although 75 epochs were planned, training was stopped at epoch 52 when the model stabilized and began to show signs of potential overfitting.
-
 ---
 
 ## 📈 Performance
@@ -113,8 +100,8 @@ The final trained model has been deployed and made publicly available for real-t
 ```python
 import requests
 
-url = "PUT-YOUR-API-ENDPOINT-HERE"
-files = {"file": open("your_image.jpg", "rb")}
+url = "[PUT-YOUR-API-ENDPOINT-HERE](https://huggingface.co/spaces/monaabdelrazek/AncientAura2/blob/main/brave_pharos_detection_model256.7z)"
+files = {"file": open("Queen_Hatshepsut.jpg", "rb")}
 response = requests.post(url, files=files)
 
 print(response.json())
