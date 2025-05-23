@@ -111,3 +111,7 @@ response = requests.post(url, files=files)
 print(response.status_code)
 print(response.json())
 
+## 🚀 Try it on Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.py)
+
