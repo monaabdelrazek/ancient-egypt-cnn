@@ -100,7 +100,7 @@ The final trained model has been deployed and made publicly available for real-t
 ```python
 import requests
 
-url = "[(https://huggingface.co/spaces/monaabdelrazek/AncientAura2/blob/main/brave_pharos_detection_model256.7z)"
+url = "(https://monaabdelrazek-AncientAura2.hf.space/predict)"
 files = {"file": open("Queen_Hatshepsut.jpg", "rb")}
 response = requests.post(url, files=files)
 
