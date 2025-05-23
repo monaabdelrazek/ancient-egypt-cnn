@@ -25,7 +25,12 @@ This deep learning project demonstrates the end-to-end development of an image c
 
 ## 🧼 Dataset Preparation & Cleaning
 
-The dataset was **manually collected** from online sources and processed through an extensive cleaning pipeline:
+The dataset was originally based on publicly available resources, including:
+
+- [Google Drive Collection by Marvy Ayman](https://drive.google.com/drive/folders/1hBzNW2XOp41v58GPTDITJvN_xrug1U8b)
+- [Egypt Monuments Dataset on GitHub](https://github.com/marvy-ayman/egypt-monuments-dataset)
+
+Additionally, more images were **manually collected** from various online websites to enrich and balance the dataset.
 
 - Broken/corrupted images were detected and **removed**.
 - Validated file formats and color channels (e.g., RGB).
@@ -33,6 +38,10 @@ The dataset was **manually collected** from online sources and processed through
 - Clean replacement images were **manually merged** into the dataset post-cleaning.
 
 > 🧾 **Note:** If the merge step is not visible in the code, it's because it was done offline to ensure full control over dataset quality before training.
+
+---
+
+- After the manual collection and cleaning steps, **data augmentation techniques** were applied locally on the dataset to synthetically increase the number of images per class. This helped to balance the classes and improve model generalization during training.
 
 ---
 
