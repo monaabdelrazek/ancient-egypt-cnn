@@ -51,7 +51,7 @@ There are two versions available for download:
 | Version | Description | Download |
 |--------|-------------|----------|
 | 🧹 Raw Cleaned Dataset | Contains original cleaned images without augmentation or splitting. Useful if you'd like to redo preprocessing and augmentation from scratch. | [Download from Google Drive](https://drive.google.com/drive/folders/1TedjpusALapU23Aw3k64UG2JnXnpNLMq?usp=sharing) |
-| 📦 Final Dataset | Augmented dataset with ~1000 images per class, already split into `train`, `val`, and `test`. Used to train the final model. | [Download from Kaggle](https://www.kaggle.com/datasets/monaabdelrazek/finaldataset) |
+| 📦 Final Dataset | Augmented dataset with ~1000 images per class, already split into `train`, `val`, and `test`. Used to train the final model. | [Download from Kaggle](https://www.kaggle.com/datasets/monaabdelrazek/finaldataset/data) |
 
 ⚠️ These datasets are used for educational purposes only and were collected from publicly available sources.
 
