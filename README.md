@@ -96,6 +96,11 @@ The final trained model has been deployed and made publicly available for real-t
 - 🧠 **Live Inference API:**  
   [🔗 Access the API](https://monaabdelrazek-AncientAura2.hf.space/predict)
 
+> ⚠️ **Note for Users:**  
+> To interact with the live inference API directly, please use a tool like **[Postman](https://www.postman.com/)** or a script (e.g., using Python's `requests` library).  
+> Web browsers cannot send file uploads in POST requests correctly, so using Postman is necessary to test the `/predict` endpoint with image files.
+
+
 ## 🚀 Try it on Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
