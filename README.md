@@ -1,4 +1,3 @@
-# ancient-egypt-cnn
 # 🧠 Image Classification from Scratch using CNN
 
 This deep learning project demonstrates the end-to-end development of an image classification system using a **custom Convolutional Neural Network (CNN)** architecture, built entirely **from scratch** — without relying on pre-trained models.
