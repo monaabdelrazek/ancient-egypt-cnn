@@ -6,7 +6,8 @@ This folder contains the deployment setup for the image classification model tha
 
 - Python + Flask (REST API)
 - TensorFlow / Keras
-- Docker (for containerized deployment)
+- Docker (for containerized deployment, optional)
+- Hugging Face Spaces (for hosting)
 
 ## 📦 Files
 
@@ -15,27 +16,44 @@ This folder contains the deployment setup for the image classification model tha
 | `app.py` | Flask backend serving the model with a `/predict` endpoint |
 | `requirements.txt` | Dependencies for running the API |
 | `Dockerfile` | Docker instructions to build and serve the model |
-| `brave_pharos_detection_model256.7z` | Compressed Keras model (not included in repo — see below) |
+| `brave_pharos_detection_model256.7z` | Compressed Keras model (not included in this repo — see link below) |
 
-## 🧠 Model
+## 🧠 Model Info
 
-The model is a CNN trained to classify 21 classes of Egyptian artifacts. It was trained on a custom-collected dataset, augmented to ~1000 images per class.
+The model is a CNN trained to classify 21 classes of Egyptian artifacts. It was trained on a custom-collected dataset and augmented to ~1000 images per class.
 
 ✅ **Model Accuracy:** ~95%  
 📁 **Input Shape:** (256, 256, 3)
 
-### 🔗 Download the Model
+---
 
-The model file (`brave_pharos_detection_model256.7z`) can be downloaded from:
+## 🌐 Live API on Hugging Face Spaces
 
-👉 [Hugging Face](https://huggingface.co/spaces/monaabdelrazek/AncientAura2/blob/main/brave_pharos_detection_model256.7z)
+This deployment is already live and running on **Hugging Face Spaces** here:
 
-Replace the `ADD` or `COPY` in `Dockerfile` to use the downloaded file if running locally.
+👉 **[Try the Live API](https://huggingface.co/spaces/monaabdelrazek/AncientAura2)**
 
-## ▶️ Usage
+> No need to run locally — the API is hosted and served directly from the Hugging Face Space.
 
-To run locally via Docker:
+---
+
+## 📦 Model File
+
+The model file (`brave_pharos_detection_model256.7z`) used in this deployment is stored on Hugging Face:
+
+🔗 [Download the model from Hugging Face](https://huggingface.co/spaces/monaabdelrazek/AncientAura2/blob/main/brave_pharos_detection_model256.7z)
+
+If you wish to run this project locally, you can download the model and update the `Dockerfile` accordingly.
+
+---
+
+## 🐳 Optional: Run Locally with Docker
+
+> ⚠️ Only needed if you plan to run this API on your own machine.
 
 ```bash
+# Build Docker image
 docker build -t egypt-model-api .
+
+# Run the container
 docker run -p 7860:7860 egypt-model-api
