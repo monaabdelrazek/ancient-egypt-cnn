@@ -100,8 +100,11 @@ The final trained model has been deployed and made publicly available for real-t
 ```python
 import requests
 
-url = "(https://monaabdelrazek-AncientAura2.hf.space/predict)"
+url = "https://monaabdelrazek-AncientAura2.hf.space/predict"
 files = {"file": open("Queen_Hatshepsut.jpg", "rb")}
 response = requests.post(url, files=files)
 
 print(response.json())
+print(response.status_code)
+print(response.text)
+
