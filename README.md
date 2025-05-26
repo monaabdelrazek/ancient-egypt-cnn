@@ -147,6 +147,10 @@ The final trained model has been deployed and made publicly available for real-t
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
 
+> ⚠️ **Note:** Only `.jpg`, `.jpeg`, and `.png` image formats are supported.  
+> Please convert other formats (such as `.heic`) before uploading to avoid errors.
+
+
 
 <h3>🖼️ Sample Image for Testing</h3>
 
