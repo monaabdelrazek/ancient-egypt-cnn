@@ -148,14 +148,13 @@ The final trained model has been deployed and made publicly available for real-t
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
 
 
-## 🖼️ Sample Image for Testing
+<h3>🖼️ Sample Image for Testing</h3>
 
-To help you try the live API quickly, here's a sample image you can use:
+<p>To help you try the live API quickly, here's a sample image you can use:</p>
 
-![King_Zoser](https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/sample_images/King_Zoser.jpeg)
+<img src="https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/sample_images/King_Zoser.jpeg" alt="King_Zoser" width="300"/>
 
-> 📎 You can right-click the image to **save it** and use it in the [Google Colab demo](#-try-it-on-google-colab) or Postman.
-
+<p><i>📎 You can right-click the image to <b>save it</b> and use it in the <a href="#-try-it-on-google-colab">Google Colab demo</a> or Postman.</i></p>
 
 
 
