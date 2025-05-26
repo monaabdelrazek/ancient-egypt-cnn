@@ -17,7 +17,7 @@ This deep learning project demonstrates the end-to-end development of an image c
 | `01_data_analysis.ipynb`     | Initial EDA, class distribution analysis, imbalance insights |
 | `02_data_augmentation_static.ipynb` | Data augmentation techniques to address class imbalance |
 | `03_model_attempt1_88acc.ipynb`  | First baseline CNN model with 88% accuracy               |
-| `04_model_final_95acc.ipynb`  | Final refined CNN model with 96% accuracy                |
+| `04_model_final_96acc.ipynb`  | Final refined CNN model with 96% accuracy                |
 | `class_info.json`| Contains general descriptive information about each class, used to display names during testing and inference |
 | `deployment/`           | Scripts and links for online inference API               |
 
@@ -74,7 +74,7 @@ The deep learning model is a custom-built Convolutional Neural Network (CNN) des
 - Early stopping was applied manually at epoch 52 out of a planned 75 epochs, based on monitoring validation performance.
 
 For detailed implementation and code, please refer to the notebook:
-- [`04_model_final_95acc`](https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/notebooks/model_final_95acc.ipynb)
+- [`04_model_final_96acc`](https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/notebooks/model_final_96acc.ipynb)
 
 
 ---
