@@ -147,7 +147,7 @@ The final trained model has been deployed and made publicly available for real-t
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
 
-> ⚠️ **Note:** Only `.jpg`, `.jpeg`, and `.png` image formats are supported.  
+> ⚠️ **Note:** Only `.jpg`, `.jpeg`, `.png`, `.bmp` and `.webp` image formats are supported.  
 > Please convert other formats (such as `.heic`) before uploading to avoid errors.
 
 
@@ -156,7 +156,13 @@ The final trained model has been deployed and made publicly available for real-t
 
 <p>To help you try the live API quickly, here's a sample image you can use:</p>
 
-<img src="https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/sample_images/King_Zoser.jpeg" alt="King_Zoser" width="300"/>
+<div style="position: relative; display: inline-block; text-align: center;">
+  <img src="https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/sample_images/King_Zoser.jpeg" alt="King_Zoser" width="300" style="border-radius: 8px;">
+  <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold; background-color: rgba(0,0,0,0.6); padding: 4px 8px; border-radius: 4px;">
+    King_Zoser
+  </div>
+</div>
+
 
 <p><i>📎 You can right-click the image to <b>save it</b> and use it in the <a href="#-try-it-on-google-colab">Google Colab demo</a> or Postman.</i></p>
 
