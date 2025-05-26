@@ -4,7 +4,7 @@ This deep learning project demonstrates the end-to-end development of an image c
 
 > 📌 **Key Achievements:**  
 > ✅ Built CNN model from zero (no transfer learning)  
-> ✅ Achieved **95% test accuracy** on unseen data  
+> ✅ Achieved **96% test accuracy** on unseen data  
 > ✅ Designed a robust pipeline including cleaning, augmentation, training, evaluation, and deployment  
 > ✅ Deployed on Hugging Face with live API access
 
@@ -17,7 +17,7 @@ This deep learning project demonstrates the end-to-end development of an image c
 | `01_data_analysis.ipynb`     | Initial EDA, class distribution analysis, imbalance insights |
 | `02_data_augmentation_static.ipynb` | Data augmentation techniques to address class imbalance |
 | `03_model_attempt1_88acc.ipynb`  | First baseline CNN model with 88% accuracy               |
-| `04_model_final_95acc.ipynb`  | Final refined CNN model with 95% accuracy                |
+| `04_model_final_95acc.ipynb`  | Final refined CNN model with 96% accuracy                |
 | `class_info.json`| Contains general descriptive information about each class, used to display names during testing and inference |
 | `deployment/`           | Scripts and links for online inference API               |
 
@@ -70,7 +70,7 @@ The deep learning model is a custom-built Convolutional Neural Network (CNN) des
 ### Training Details:
 - Two models were trained during experimentation:
   - An initial model achieving 88% accuracy.
-  - The final model, which reached 95% accuracy on the test set.
+  - The final model, which reached 96% accuracy on the test set.
 - Early stopping was applied manually at epoch 52 out of a planned 75 epochs, based on monitoring validation performance.
 
 For detailed implementation and code, please refer to the notebook:
@@ -83,7 +83,7 @@ For detailed implementation and code, please refer to the notebook:
 
 | Metric            | Value                        |
 |-------------------|------------------------------|
-| **Test Accuracy** | **95%** on unseen data       |
+| **Test Accuracy** | **96%** on unseen data       |
 | Loss              | Low & stable                 |
 | Overfitting       | Avoided using augmentation & dropout |
 | Epochs Trained    | 52 (out of 75 planned epochs) |
