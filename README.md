@@ -1,3 +1,4 @@
+
 # 🧠 Image Classification from Scratch using CNN
 
 This deep learning project demonstrates the end-to-end development of an image classification system using a **custom Convolutional Neural Network (CNN)** architecture, built entirely **from scratch** — without relying on pre-trained models.
@@ -20,6 +21,9 @@ This deep learning project demonstrates the end-to-end development of an image c
 | `04_model_final_96acc.ipynb`  | Final refined CNN model with 96% accuracy                |
 | `class_info.json`| Contains general descriptive information about each class, used to display names during testing and inference |
 | `deployment/`           | Scripts and links for online inference API               |
+| `example_request.ipynb`       | Upload an image and send it to the deployed Hugging Face API for testing |
+
+> 🗒️ **Note:** The notebooks `01_data_analysis.ipynb` and `02_data_augmentation_static.ipynb` contain some printed messages in Arabic. This **does not affect any code functionality** or the results.
 
 ---
 
@@ -92,6 +96,37 @@ For detailed implementation and code, please refer to the notebook:
 > 📌 Manual early stopping was used by closely monitoring training and validation performance. Although 75 epochs were planned, training was stopped at epoch 52 when the model stabilized and began to show signs of potential overfitting.
 
 ---
+## 🏷️ Supported Classes
+
+The model is trained to classify **exactly 21 distinct ancient Egyptian landmarks**, including royal statues, temples, and pyramids.
+
+Here are the supported classes:
+
+- **King Akhenaten**  
+- **King Amenhotep III**  
+- **Bent pyramid of Senefru**  
+- **Colossi of Memnon**  
+- **Goddess Isis**  
+- **Queen Hatshepsut**  
+- **Khafre Pyramid**  
+- **King Thutmose III**  
+- **King Tutankhamun**  
+- **Queen Nefertiti**  
+- **Pyramid of Djoser**  
+- **King Ramesses II**  
+- **Ramessum (Memorial Temple of Ramesses II)**  
+- **King Zoser**  
+- **Tutankhamun with Ankhesenamun**  
+- **Temple of Hatshepsut**  
+- **Temple of Isis in Philae**  
+- **Temple of Kom Ombo**  
+- **The Great Temple of Ramesses II**  
+- **Menkaure Pyramid**  
+- **Sphinx**
+
+> ⚠️ The model **cannot predict** labels outside of these 21 predefined classes.
+
+---
 
 ## 🚀 Deployment
 
@@ -111,3 +146,17 @@ The final trained model has been deployed and made publicly available for real-t
 ## 🚀 Try it on Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monaabdelrazek/ancient-egypt-cnn/blob/main/example_request.ipynb)
+
+
+## 🖼️ Sample Image for Testing
+
+To help you try the live API quickly, here's a sample image you can use:
+
+![King_Zoser](https://github.com/monaabdelrazek/ancient-egypt-cnn/blob/main/sample_images/King_Zoser.jpeg)
+
+> 📎 You can right-click the image to **save it** and use it in the [Google Colab demo](#-try-it-on-google-colab) or Postman.
+
+
+
+
+
