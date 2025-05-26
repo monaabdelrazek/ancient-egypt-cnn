@@ -22,7 +22,7 @@ This folder contains the deployment setup for the image classification model tha
 
 The model is a CNN trained to classify 21 classes of Egyptian artifacts. It was trained on a custom-collected dataset and augmented to ~1000 images per class.
 
-✅ **Model Accuracy:** ~95%  
+✅ **Model Accuracy:** ~96%  
 📁 **Input Shape:** (256, 256, 3)
 
 ---
