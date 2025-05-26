@@ -164,7 +164,7 @@ The final trained model has been deployed and made publicly available for real-t
 </div>
 
 
-<p><i>📎 You can right-click the image to <b>save it</b> and use it in the<a>Google Colab demo</a> or Postman.</i></p>
+<p><i>📎 You can right-click the image to <b>save it</b> and use it in the <a>Google Colab demo</a> or Postman.</i></p>
 
 
 
